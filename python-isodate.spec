@@ -1,13 +1,13 @@
 %define 	module	isodate
 Summary:	An ISO 8601 date/time/duration parser and formater
 Name:		python-%{module}
-Version:	0.4.4
+Version:	0.4.6
 Release:	1
 License:	GPL v3
 Group:		Development/Languages
 URL:		http://pypi.python.org/pypi/isodate/
 Source0:	http://pypi.python.org/packages/source/i/isodate/isodate-%{version}.tar.gz
-# Source0-md5:	c331586a738ca77fb94190b35e2a5a11
+# Source0-md5:	2368e969c7a8e76ae6c35c9c6bb418f0
 BuildRequires:	python-modules
 BuildRequires:	python-setuptools
 BuildRequires:	rpm-pythonprov
