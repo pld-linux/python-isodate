@@ -1,4 +1,4 @@
-
+#
 # Conditional build:
 %bcond_without  python2 # CPython 2.x module
 %bcond_without  python3 # CPython 3.x module
@@ -15,18 +15,18 @@ Source0:	http://pypi.python.org/packages/source/i/isodate/isodate-%{version}.tar
 # Source0-md5:	22232a6b0f5d320610ae45722c1b9542
 URL:		http://pypi.python.org/pypi/isodate/
 %if %{with python2}
-BuildRequires:	python-devel
+BuildRequires:	python-devel >= 1:2.6
 BuildRequires:	python-distribute
-BuildRequires:	python-modules
+BuildRequires:	python-modules >= 1:2.6
 %endif
 %if %{with python3}
-BuildRequires:	python-devel
-BuildRequires:	python-distribute
-BuildRequires:	python-modules
+BuildRequires:	python3-devel >= 1:3.2
+BuildRequires:	python3-distribute
+BuildRequires:	python3-modules >= 1:3.2
 %endif
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
-Requires:	python-modules
+Requires:	python-modules >= 1:2.6
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
