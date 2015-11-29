@@ -25,7 +25,7 @@ BuildRequires:	python3-distribute
 BuildRequires:	python3-modules >= 1:3.2
 %endif
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.219
+BuildRequires:	rpmbuild(macros) >= 1.710
 Requires:	python-modules >= 1:2.6
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
