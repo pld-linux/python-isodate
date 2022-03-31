@@ -91,8 +91,6 @@ rm -rf $RPM_BUILD_ROOT
 %if %{with python3}
 %py3_install
 
-# redundant
-%{__rm} -r $RPM_BUILD_ROOT%{py3_sitescriptdir}/isodate.egg-info
 # tests
 %{__rm} -r $RPM_BUILD_ROOT%{py3_sitescriptdir}/isodate/tests
 %endif
