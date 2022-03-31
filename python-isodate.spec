@@ -8,13 +8,13 @@
 Summary:	An ISO 8601 date/time/duration parser and formater
 Summary(pl.UTF-8):	Moduł analizujący i formatujący daty/czas/okresy w formacie ISO 8601
 Name:		python-%{module}
-Version:	0.5.4
-Release:	6
+Version:	0.6.1
+Release:	1
 License:	BSD
 Group:		Libraries/Python
 #Source0Download: https://pypi.python.org/simple/isodate/
 Source0:	https://pypi.python.org/packages/source/i/isodate/isodate-%{version}.tar.gz
-# Source0-md5:	9da3ea2af54a6261d854e73d2266030e
+# Source0-md5:	1a310658b30a48641bafb5652ad91c40
 URL:		https://pypi.python.org/pypi/isodate/
 %if %{with python2}
 BuildRequires:	python-devel >= 1:2.6
