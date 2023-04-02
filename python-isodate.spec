@@ -16,7 +16,7 @@ Group:		Libraries/Python
 #Source0Download: https://pypi.simple/isodate/
 Source0:	https://files.pythonhosted.org/packages/source/i/isodate/isodate-%{version}.tar.gz
 # Source0-md5:	1a310658b30a48641bafb5652ad91c40
-URL:		https://pypi.org/project/pypi/
+URL:		https://pypi.org/project/isodate/
 %if %{with python2}
 BuildRequires:	python-devel >= 1:2.7
 BuildRequires:	python-modules >= 1:2.7
