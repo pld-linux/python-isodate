@@ -10,7 +10,7 @@ Summary(pl.UTF-8):	Moduł analizujący i formatujący daty/czas/okresy w formaci
 Name:		python-%{module}
 # 0.6.1 is expected to be last version for python2
 Version:	0.6.1
-Release:	1
+Release:	2
 License:	BSD
 Group:		Libraries/Python
 #Source0Download: https://pypi.simple/isodate/
