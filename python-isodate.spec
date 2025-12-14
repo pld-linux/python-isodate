@@ -1,16 +1,16 @@
 #
 # Conditional build:
 %bcond_without	python2	# CPython 2.x module
-%bcond_without	python3	# CPython 3.x module
+%bcond_with	python3	# CPython 3.x module (built from python3-isodate.spec)
 %bcond_without	tests	# unit tests
 
 %define 	module	isodate
 Summary:	An ISO 8601 date/time/duration parser and formater
 Summary(pl.UTF-8):	Moduł analizujący i formatujący daty/czas/okresy w formacie ISO 8601
 Name:		python-%{module}
-# 0.6.1 is expected to be last version for python2
+# keep 0.6.x here for python2 support
 Version:	0.6.1
-Release:	3
+Release:	4
 License:	BSD
 Group:		Libraries/Python
 #Source0Download: https://pypi.simple/isodate/
